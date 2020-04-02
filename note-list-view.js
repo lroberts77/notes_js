@@ -7,6 +7,7 @@ NoteListView.prototype = (function()
 {
 
      function htmlnotes(){
+         
         if(this.noteList.list.length === 0){
             return "No notes added";
         } else {
